@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Hospital/imgn/hospital.png">
+    <title>Hospital San Juan De Dios</title>
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header>
+        <h1 style="text-align: center;">
+            <ins>Hospital san Juan de Dios</ins>
+        </h1>
+        <p style="text-align: center;"> Tu salud es nuestra prioridad </p>
+    </header>
+
+    <!--barra de navegacion-->
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/index.html#galeria">Acerca</a>
+        <a href="/Hospital/pages/galeria.html">Galeria</a>
+        <a href="/Hospital/pages/contacto.html">Contacto</a>
+    </nav>
+    <hr>
+    <br>
+    <h2 style="text-align: center;">Registro del Paciente</h2>
+    <form action="#">
+    <br><br>
+        <label for="nombre">Ingrese sus nombres</label>
+        <br><br>
+        <input type ="nombre" id="nombre" placeholder="Nombres">
+        <br><br>
+        <label for="apellido">Ingrese sus apellidos</label>
+        <br><br>
+        <input type="apellido" id="apellido" placeholder="Apellidos">
+        <br><br>
+        <label for="edad">Ingrese su edad</label>
+        <br><br>
+        <input type="number" id="edad" name="edad" placeholder="Edad" min="1" max="100">
+        <br><br>
+        <label for="email">Ingresa su email</label>
+        <br><br>
+        <input type="email id="email placeholder="Email">
+        <br><br>
+        <label for="password">Ingrese su contraseña</label>
+        <br><br>
+        <input type="password" id="password" placeholder="Password">
+        <br><br>
+        <leabel for="fecha_nacimiento">Ingrese su fecha de nacimiento</leabel>
+        <br><br>
+        <input id="fecha_nacimiento" placeholder="Fecha de nacimiento">
+        <br><br>
+        <label for="telefono">Ingrese su telefono</label>
+        <br><br>
+        <input type="number" id="cargas" placeholder="Numero">
+        <br><br>
+        <label for="telefonoemergencia">Contacto de emergencia</label>
+        <br><br>
+        <input type="telefonoemergencia" id="Contacto" placeholder="Numero">
+        <br><br>
+        <label for="cargas">Genero</label>
+        <br><br>
+        <label for="masculino"><input type="radio" id="masculino" name="genero" >Masculino<label>
+        <label for="femenino"><input type="radio" id="femenino" name="genero">Femenino</label>
+        <label for="otro"><input type="radio" id="otro" name="genero">Otro</label>
+        <br><br>
+        <label for="cuidad">Ciudad</label>
+        <select name="cuidad" id="cuidad">
+            <option value="seleccionar" disabled selected></option>
+            <option value="latacunga">Latacunga</option>
+            <option value="quito">Quito</option>
+            <option value="cuenca">Cuenca</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+        <label for="sangre">Tipo de sangre</label>
+        <br><br>
+        <select name="sangre" id="sangre">
+            <option value="">Seleccione</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+        <br><br>
+        <label for="alergias">Ingrese si tiene alguna alergia</label>
+        <br><br>
+        <textarea name="alergias" id="alergias" rows="10" cols="50">Escriba sus alergias</textarea>
+        <br><br>
+        <label for="comentarios">Ingrese sus comentarios</label>
+        <br><br>
+        <textarea name="comentarios" id="comentarios" rows="4" cols="50"
+        placeholder="Comentarios"></textarea>
+        <br><br>
+        <label for="foto">Adjuntar foto</label>
+        <br><br>
+        <input type="file">
+        <br><br>
+
+        <!--BOTONES-->
+        <button>Inicio</button>
+        <input type="submit" value="Enviar">
+        <button type="reset">limpiar</button>
+    </form>
+    <hr>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+
+    <!--pie-->
+<footer>
+        <p> &copy;2026 Hospial San Juan de Dios</p>
+        <address>Quito-Ecuador</address>
+        <div style="display: flex;">
+            <img src="/Hospital/imgn/facebook.png" alt="" width="50">
+            <img src="/Hospital/imgn/instagram.jpg" alt="" width="50">
+            <img src="/Hospital/imgn/wasap.jpg" alt="" width="50">
+        </div>
+</footer>
+
+<hr>
